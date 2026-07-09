@@ -44,7 +44,7 @@ header {
 
 }
 
-.nav {
+nav {
     margin-left: auto;
 }
 
@@ -106,23 +106,6 @@ header {
 
 }
 
-.btnTryFree{
-    background-color: #4F9CF9;
-    color: #FFFFFF;
-    width: 227px;
-    height: 60px;
-    border-radius: 8px;
-    font-family: "Segoe UI";
-    border: 0;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 23px;
-    letter-spacing: -2%;
-    font-style: medium;
-    cursor: pointer;
-
-}
-
 .wrapper {
     background-color: #043873;
     background-image: url('projectContent/backimage.svg');
@@ -148,9 +131,9 @@ header {
     line-height: 30px;
     letter-spacing: -2%;
     color: white;
-    margin-left: 220px;
     text-align: left;
     margin-top: 20px;
+    padding-bottom: 40px;
 }
 
 .wrapper h2 {
@@ -162,11 +145,13 @@ header {
     line-height: 100%;
     letter-spacing: -2%;
     color: white;
-    margin-left: 220px;
     text-align: left;
     margin-bottom: auto;
 }
 
+.sectionWrapper {
+    margin-left: 220px;
+}
 .wrapper img {
     width: auto;
     height: auto;
@@ -177,7 +162,7 @@ header {
     margin-top: 8px;
 }
 
-.btnTryFreeMain{
+.btnTryFree{
     background-color: #4F9CF9;
     color: #FFFFFF;
     width: 227px;
@@ -191,8 +176,6 @@ header {
     letter-spacing: -2%;
     font-style: medium;
     cursor: pointer;
-    margin-left: 220px;
-    margin-top: 40px;
 }
 
 .wrapperProject {
