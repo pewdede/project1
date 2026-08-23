@@ -362,3 +362,712 @@ main {
     bottom: -20px;
     left: -20px;
 }
+
+#wrapperPlan {
+    background-color: white;
+    padding-top: 100px;
+    padding-left: 220px;
+    padding-bottom: 200px;
+}
+
+#wrapperPlan-h2 {
+    position: relative;
+    margin-left: 500px;
+    z-index: 0;
+    margin-bottom: 30px;
+}
+
+#wrapperPlan-p {
+    margin-left: 300px;
+    width: 979px;
+    height: 60px;
+    text-align: center;
+}
+
+#wrapperPlan-h2::before {
+    display: block;
+    content: " ";
+    background-image: url('projectContent/planUnderline.png');
+    background-repeat: no-repeat;
+    width: 670px;
+    height: 40px;
+    z-index: -1;
+    position: absolute;
+    left: 260px;
+    bottom: -18px;
+}
+
+#cards {
+    display: flex;
+}
+
+.card {
+  border: 1px solid #efd8a8;
+  border-radius: 12px;
+  background: white;
+  height: 634px;
+  width: 472px;
+  margin-top: 120px;
+}
+
+#cardFree {
+    margin-left: 44px;
+}
+
+#cardFree li {
+    font-family:"Segoe UI";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -2%;
+    list-style: none;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#cardFree li::before {
+    content: url(projectContent/cardIcon.svg);
+    position: absolute;
+    left: -40px;
+}
+
+.money {
+    font-family:"Segoe UI";
+    font-weight: 700;
+    font-style: bold;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    color: #212529;
+    margin-bottom: 25px;
+}
+
+.cardName {
+    font-family:"Segoe UI";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    color: #212529;
+    margin-bottom: 25px;
+}
+
+.cardDescription {
+    font-family:"Segoe UI";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -2%;
+    color: #212529;
+    margin-bottom: 25px;
+}
+
+#btnCard {
+    background-color: white;
+    border: 1px solid #efd8a8;
+    border-radius: 8px;
+    width: 166px;
+    height: 51px;
+    color: #212529;
+}
+
+#cardBlue {
+    background-color: #043873;
+    border-radius: 12px;
+    width: 472px;
+    height: 761px;
+    margin: 0;
+    margin-top: 60px;
+}
+
+#cardMain {
+    margin-top: 80px;
+    margin-left: 44px;
+}
+
+#cardMain li {
+    font-family:"Segoe UI";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -2%;
+    list-style: none;
+    position: relative;
+    margin-bottom: 30px;
+    color: white;
+}
+
+#cardMain li::before {
+    content: url(projectContent/mainCardIcon.svg);
+    position: absolute;
+    left: -40px;
+}
+
+#cardMainParagraph {
+    color: white;
+}
+
+#mainMoney {
+    color: gold;
+    margin-bottom: 35px;
+}
+
+#btnCardMain {
+    background-color: #4F9CF9;
+    border-radius: 8px;
+    width: 166px;
+    height: 51px;
+    color: white;
+}
+
+#wrapperYourWork {
+    padding-top: 100px;
+    padding-bottom: 105px;
+    position: relative;
+}
+
+#wrapperYourWork::before {
+    display: block;
+    content: "";
+    background-image: url(projectContent/wrapperYourWorkBG.svg);
+    width: 502px;
+    height: 750px;
+    position: absolute;
+    bottom: 5px;
+}
+
+#wrapperYourWork h2 {
+    width: 1064px;
+    height: 87px;
+    z-index: 0;
+    position: relative;
+    margin-left: 450px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+#wrapperYourWork p {
+    color: white;
+    text-align: center;
+}
+
+#wrapperYourWork h2::before {
+    display: block;
+    content: "";
+    background-image: url(projectContent/yourWorkUnderline.png);
+    z-index: -1;
+    position: absolute;
+    width: 670px;
+    height: 70px;
+    background-repeat: no-repeat;
+    left: 735px;
+    bottom: -48px;
+}
+
+#btnTryTaskey {
+    width: 195px;
+    height: 63px;
+}
+
+#wrapperYourWork button {
+    margin-left: 880px;
+    margin-top: 50px;
+}
+
+#wrapperYourData {
+    display: flex;
+    padding-top: 200px;
+    background-color: white;
+    padding-bottom: 100px;
+}
+
+#sectionWrapperYourData {
+    margin-left: 220px;
+}
+
+#sectionWrapperYourData h2 {
+    margin-bottom: 30px;
+    color: #212529;
+    position: relative;
+    z-index: 0;
+}
+
+#sectionWrapperYourData h2::before {
+    display: block;
+    content: " ";
+    background-image: url('projectContent/yourDataUnderline.svg');
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 40px;
+    position: absolute;
+    z-index: -1;
+    left: 200px;
+    bottom: -20px;
+}
+
+#sectionWrapperYourData button {
+    margin-top: 55px;
+    width: 197px;
+    height: 63px;
+}
+
+#wrapperSponsors {
+    padding-left: 220px;
+    padding-top: 100px;
+    background-color: white;
+    padding-bottom: 300px;
+}
+
+#wrapperSponsors h2 {
+    margin-left: 500px;
+    color: #212529;
+    position: relative;
+    z-index: 0;
+}
+
+#wrapperSponsors h2::before {
+    display: block;
+    content: " ";
+    background-image: url('projectContent/sponsorsUnderline.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    width: 350px;
+    height: 40px;
+    left: 140px;
+    bottom: -12px;
+}
+
+#sectionWrapperSponsors {
+    padding-left: 0px;
+    display: flex;
+}
+
+.sponsors {
+    margin-top: 75px;
+    margin-left: 216px;
+}
+
+#apple {
+    margin-top: 75px;
+    width: 55px;
+    height: 68px;
+}
+
+#microsoft {
+    width: 287px;
+    height: 62px;
+}
+
+#slack {
+    width: 280px;
+    height: 71px;
+}
+
+#google {
+    width: 211px;
+    height: 70px;
+}
+
+#wrapperApps {
+    margin-top: 100px;
+    display: flex;
+    margin-left: 220px;
+    position: relative;
+    padding-bottom: 200px;
+}
+
+#wrapperApps::before {
+    display: block;
+    content: " ";
+    background-image: url('projectContent/appsBackground.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 1920px;
+    height: 720px;
+    z-index: -1;
+    left: -220px;
+    bottom: 80px;
+}
+
+#sectionWrapperApps {
+    margin-left: 100px;
+}
+
+#sectionWrapperApps p {
+    color: white;
+}
+
+#sectionWrapperApps h2 {
+    color: white;
+}
+
+#wrapperReviews {
+    padding-top: 100px;
+    padding-bottom: 212px;
+    background-color: white;
+}
+
+#wrapperReviews h2 {
+    padding-left: 600px;
+    color: #212529;
+    position: relative;
+    z-index: 0;
+}
+
+#wrapperReviews h2::before {
+    display: block;
+    content: " ";
+    background-image: url(projectContent/saysUnderline.svg);
+    background-repeat: no-repeat;
+    width: 258px;
+    height: 47px;
+    z-index: -1;
+    position: absolute;
+    left: 1140px;
+    bottom: 0px;
+}
+
+#reviews {
+    display: flex;
+    margin-left: 220px;
+}
+
+#whiteReview {
+    position: relative;
+    margin-left: 0;
+    width: 471px;
+    height: 498px;
+    background-color: white;
+    border-radius: 10px;
+    color: white;
+    box-shadow:
+        15px 10px 50px rgba(0, 0, 0, 0.08),
+        -6px -6px 20px rgba(255, 255, 255, 0.8);
+
+        box-shadow: 15px 10px 50px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+#whiteReview p {
+    color: #212529;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 154px;
+}
+
+#whiteReview::before {
+    position: absolute;
+    display: block;
+    content: " ";
+    background-image: url('projectContent/blueReview.png');
+    width: 86px;
+    height: 62px;
+    bottom: 377px;
+    left: 40px;
+}
+
+.blueReview {
+    position: relative;
+    margin-left: 0;
+    border-radius: 10px;
+    width: 471px;
+    height: 498px;
+    background-color: #4F9CF9;
+    color: white;
+}
+
+.blueReview::before {
+    position: absolute;
+    display: block;
+    content: " ";
+    background-image: url('projectContent/whiteReview.png');
+    width: 86px;
+    height: 62px;
+    bottom: 377px;
+    left: 40px;
+}
+
+.blueReview p {
+    margin-top: 154px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.line {
+    border-top: 1px solid white;
+    width: 392px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+#blackLine {
+    border-top: 1px solid black;
+}
+
+#reviews img {
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+#wrapperLast {
+    background-color: #043873;
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+
+#wrapperLast h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    color: white;
+}
+
+#wrapperLast p {
+    text-align: center;
+    color: white;
+}
+
+#wrapperLast button {
+    margin-left: 850px;
+    margin-top: 30px;
+}
+
+#wrapperLast img {
+    margin-left: 815px;
+    margin-top: 30px;
+}
+
+#btnLast {
+    width: 218px;
+    height: 59px;
+}
+
+#bigTeam {
+    font-size: 32px;
+}
+
+footer {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 220px;
+    padding-bottom: 100px;
+}
+
+footer a {
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #FFE492;
+}
+
+#sectionLogoFooter h5 {
+    margin-top: 0;
+    font-family: "Segoi UI";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 144px;
+    height: 34px;
+    color: white;
+    position: relative;
+    left: 45px;
+    margin-bottom: 10px;
+}
+
+#sectionLogoFooter h5::before {
+    display: block;
+    content: " ";
+    background-image: url(projectContent/logo.svg);
+    background-repeat: no-repeat;
+    width: 37px;
+    height: 29px;
+    position: absolute;
+    left: -45px;
+
+}
+
+#sectionLogoFooter p {
+    width: 240px;
+    height: 120px;
+    color: white;
+
+}
+
+.sectionFooter h5 {
+    color: White;
+    font-size: 18px;
+    font-style: bold;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;  
+
+}
+
+.sectionFooter p {
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -2%;
+    font-weight: 400;
+    font-style: "Segoi UI";
+}
+
+.lastSectionFooter p {
+    color: white;
+}
+
+.lastSectionFooter h5 {
+    color: White;
+    font-size: 18px;
+    font-style: bold;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;  
+
+}
+
+.sectionFooter a {
+    color: white;
+}
+
+#tryItToday {
+    margin-top: -5px;
+    width: 155px;
+    height: 36px;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -2%;
+    margin-bottom: 10px;
+}
+
+#tryItFooter button {
+    width: 186px;
+    height: 60px;
+    margin-top: 15px;
+}
+
+#tryItFooter p {
+    line-height: 20px;
+}
+
+#footerProduct {
+    margin-left: 70px;
+}
+
+#footerResources {
+    margin-left: 200px;
+}
+
+#footerCompany {
+    margin-left: 200px;
+}
+
+#tryItFooter {
+    margin-left: 200px;
+}
+
+#tryItFooter p {
+    margin-bottom: 10px;
+}
+
+#footerLine {
+    border: 1px solid #2E4E73;
+    width: 1480px;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+#underFooter {
+    display: flex;
+}
+
+#leftUnderFooter {
+    margin-left: 220px;
+    margin-top: 48px;
+    display: flex;
+    padding-bottom: 25px;
+}
+
+#leftUnderFooter li {
+    list-style: none;
+}
+
+#leftUnderFooter button {
+    font-size: 24px;
+    position: relative;
+}
+
+#leftUnderFooter button::before {
+    display: block;
+    content: " ";
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    background-image: url(projectContent/planet.png);
+    background-repeat: no-repeat;
+    left: -20px;
+}
+
+#leftUnderFooter button:hover {
+    color: #FFE492;
+}
+
+#leftUnderFooter a {
+    color: white;
+    text-decoration: none;
+}
+
+#leftUnderFooter p {
+    margin-left: 80px;
+}
+
+#leftUnderFooter a:hover {
+    color: #FFE492;
+}
+
+#btnTwitter {
+    background: url(projectContent/Twitter.svg) no-repeat center;
+    width: 17px;
+    height: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+#btnLinkedin {
+    background: url(projectContent/Linkedin.svg) no-repeat center;
+    width: 15px;
+    height: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#btnFacebook {
+    background: url(projectContent/facebook.svg) no-repeat center;
+    width: 9px;
+    height: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+#btnFacebook:hover {
+    color: #FFE492;
+}
+
+#btnLogos {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 360px;
+}
+
+#btnLogos button {
+    margin-left: 40px;
+}
